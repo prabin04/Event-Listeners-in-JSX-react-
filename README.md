@@ -9,11 +9,12 @@ An event listener attribute’s name should be something like onClick or onMouse
 
 An event listener attribute’s value should be a function. The above example would only work if myFunc were a valid function that had been defined elsewhere:
 
-```function myFunc() {
+```
+function myFunc() {
   alert('Make myFunc the pFunc... omg that was horrible i am so sorry');
 }
-<img onClick={myFunc} />```
-
+<img onClick={myFunc} />
+```
 
 Note that in HTML, event listener names are written in all lowercase, such as onclick or onmouseover. 
 In JSX, event listener names are written in camelCase, such as onClick or onMouseOver.
