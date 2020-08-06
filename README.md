@@ -12,7 +12,6 @@ An event listener attribute’s value should be a function. The above example wo
 ```function myFunc() {
   alert('Make myFunc the pFunc... omg that was horrible i am so sorry');
 }
-
 <img onClick={myFunc} />```
 
 
